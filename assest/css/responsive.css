@@ -1,0 +1,226 @@
+@media(max-width: 991px){
+  nav{
+    padding-bottom: auto;
+  }
+  nav .nav-item{
+    margin-top: 10px;
+    padding-left: 30px;
+    margin-bottom: 4px;
+  }
+  nav #logo{
+    margin-bottom: 10px;
+    font-size: 40px;
+    padding-left: 30px;
+    margin-right: auto;
+  }
+
+  nav .navbar-toggler{
+    font-size: 16px;
+    margin-right: 13px;
+  }
+
+  #mobile-nav{
+    display: block;
+  }
+  #desk-nav{
+    display: none;
+  }
+
+   #mobile-nav{
+    margin: 10px auto 5px;
+    display: flex;
+  }
+
+  #mobile-nav .nav-item{
+    display: flex;
+  }
+}
+
+@media(max-width: 850px){
+  nav .navbar-toggler{
+    font-size: 16px;
+    margin-right: 13px;
+  }
+
+  #carousel-box{
+    width: 100%;
+  }
+  
+  .carousel-item{
+    height: 300px;
+  }
+
+  .carousel-caption{
+    margin-bottom: 3em;
+  }
+
+  .carousel-caption h1{
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  .carousel-caption .card-btn{
+    margin: auto;
+  }
+  
+  .card-btn .btn{
+    padding: 5px 10px;
+    margin: 15px 10px 0px;
+    font-size: 16px;
+  }
+
+  .card-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .hero-content .btn-box{
+    display: flex;
+    margin: 10px 8px;
+  }
+
+  #btn1{
+    margin-right: 10px;
+  }
+
+  #img-card{
+    display: none;
+  }
+
+}
+
+@media(max-width: 770px){
+  nav{
+    padding-bottom: auto;
+  }
+  nav .nav-item{
+    margin-top: 10px;
+    padding-left: 30px;
+    margin-bottom: 4px;
+  }
+  nav #logo{
+    margin-bottom: 10px;
+    font-size: 40px;
+    padding-left: 13px;
+  }
+
+  .carousel-item{
+    height: 280px;
+  }
+
+  .search-btn{
+    margin-left: -3em;
+  }
+
+  .search-icons span, .search-icons .fa-location-dot{
+    display: none;
+  }
+
+  .search-icons{
+    margin: 0 5px;
+  }
+
+  #btn1{
+    margin-right: 10px;
+  }
+
+  #about-sm{
+    display: block;
+    margin-top: -0.3em;
+    margin-bottom: -3em;
+  }
+
+  #about-lg{
+    display: none;
+  }
+
+  #about-info{
+    margin-top: 15px;
+  }
+
+  #con-box {
+    margin-top: -2.6em;
+  }
+
+  #con-txt h2{
+    margin-bottom: -1em;
+  }
+
+  h2{
+    font-size: 22px;
+  }
+
+  #award-box{
+    margin-bottom: 0;
+  }
+
+  #profile{
+    margin-top: 50px;
+  }
+
+  #faqs{
+    margin-bottom: 0;
+    margin-top: -2.5em;
+  }
+
+  .accordion-header:focus,
+  .accordion-item:focus{
+    box-shadow: none;
+    border: 3px solid transparent;
+    background: #007bff;
+    border: none;
+  }
+  .accordion-item h2{
+    font-size: 18px;
+  }
+
+  #next-box{
+    margin: 0;
+  }
+
+  #footer{
+    margin-top: 3em;
+    padding: 10px 20px 30px 30px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next{
+    display: none;
+  }
+}
+
+
+@media(max-width: 600px){
+
+  .carousel-item{
+    height: 250px;
+  }
+
+  .carousel-caption{
+    margin-bottom: 2.2em;
+  }
+  .carousel-inner{
+    width: 100%;
+  }
+
+  .carousel-item img{
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .carousel-caption p{
+    font-size: 13px;
+    color: #f2f5f9;
+  }
+
+  .carousel-caption h1{
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+
+  .card-btn{
+    margin: auto;
+  }
+}
